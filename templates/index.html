@@ -5,9 +5,6 @@
     <title>My Website</title>
     <!-- Include CSS -->
     <link rel="stylesheet" type="text/css" href="{% static 'css/styles.css' %}">
-    <style>
-
-    </style>
 </head>
 <body>
     <div class="box">
@@ -18,7 +15,7 @@
             </div>
             <div class="item sign">(</div>
             <div class="item sign">)</div>
-            <div class="item sign">ans</div>
+            <div class="item sign answer">ans</div>
             <div class="item sign">del</div>
             <div class="item sign">clear</div>
             <div class="item pale">7</div>
@@ -38,11 +35,12 @@
             <div class="item">-</div>
             <div class="item">.</div>
             <div class="item pale">0</div>
-            <div class="item">=</div>
-            <div class="item item1 enter">ENTER</div>
+            <div class="item answer">=</div>
+            <div class="item item1 enter answer">ENTER</div>
         </div>
     </div>
     <!-- Include JavaScript -->
+    <script src="https://code.jquery.com/jquery-3.7.1.slim.min.js" integrity="sha256-kmHvs0B+OpCW5GVHUNjv9rOmY0IvSIRcf7zGUDTDQM8=" crossorigin="anonymous"></script>
     <script src="{% static 'js/script.js' %}"></script>
 </body>
 </html>
